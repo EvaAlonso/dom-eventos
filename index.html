@@ -4,19 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOM y Eventos</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <h1>DOM y Eventos</h1>
   </header>
-  <main>
+  <main id="main">
     <p class="initial-text">Ejercicio 1. Seleccionar el Párrafo y cambiar su contenido por un nuevo mensaje</p>
     <p class="change-style">Ejercicio 2. Crea un párrafo y cambia su color de texto a rojo</p>
     <ul class="void-list"></ul>
-    <ul class="name-list"></ul>
 
   </main>
-  
+  <section>
+    <h2>Lista de Tareas Ejercicio 16</h2>
+    <input id="new-task-input" type="text" placeholder="Escribe una tarea">
+    <button id="add-task-button">Añadir Tarea</button>
+    <ul id="tasks-list"></ul>
+  </section>
 
   <script src="./script.js"></script>
 </body>
