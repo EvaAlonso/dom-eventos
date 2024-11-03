@@ -179,6 +179,7 @@ createTable(array);
 /* 9. Eliminar un elemento de la lista al hacer clic 
 Crea una lista con algunos elementos. Al hacer clic en cualquier elemento de la lista, elimínalo del DOM.
 */
+
 /* 10. Cambiar el contenido de un párrafo con un evento de teclado 
 Crea un campo de texto y un párrafo. Cada vez que el usuario presione una tecla, actualiza el contenido del párrafo con el texto del input.
 */

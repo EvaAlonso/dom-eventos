@@ -1,27 +1,37 @@
+:root{
+  --soft-yellow: #f0e5c1;
+  --soft-pink: #e1b7d2;
+  --soft-purple: #d4a5e3;
+  --soft-blue: #a9d6e5;
+  --ivory: #f2f2f2
+}
+
 body {
-  background-color: #f2f2f2;
+  background-color: var(--ivory);
+  color: #333;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  color: #333;
-  margin: 1rem;
+  margin: 2rem;
   padding: 0;
 }
 h1 {
+  background-color: var(--soft-purple);
+  border-radius: 10px;
   text-align: center;
-
+  width: 300px;
 }
 input,
 button {
+  border-radius: 4px;
+  border: 1px solid var(--soft-pink);
   font-size: 16px;
   padding: 8px;
-  border: none;
-  border-radius: 4px;
 }
 
 button {
-  background-color: darkorange;
+  background-color: var(--soft-blue);
   cursor: pointer;
 }
 
@@ -30,14 +40,33 @@ ul {
   padding: 0;
 }
 li{
-  background-color: white;
-  display: flex;
   align-items: center;
+  background-color: var(--soft-pink);
+  border-radius: 4px;
+  display: flex;
+  gap: 10px;
   justify-content: flex-start;
   margin-bottom: 10px;
   padding: 10px;
-  border-radius: 4px;
-  gap: 10px;
+  width: 200px;
+}
+table {
+  background-color: var(--soft-pink);
+  margin-block: 20px;
+  width: 600px;
+  td{
+    border: 1px solid var(--soft-purple);
+    padding: 10px;
+  }
+}
+.tasks{
+  h2{
+    background-color: var(--soft-purple);
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+    width: 400px;
+  }
 }
 
 .completed {
